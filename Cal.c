@@ -1,12 +1,11 @@
 #include<stdio.h>
 
 
-void add(num1, num1);
+void add(num1, num2);
 
 voidi main()
 {
   double num1, num2;
-  double result = num1 + num2;
   
   printf("num1 : ");
   scanf("%lf",&num1);
@@ -15,8 +14,16 @@ voidi main()
   scanf("%lf",&num2);
   
 }
-void add(num1, num1)
+void add(num1, num2)
 {
-  printf("%lf + %lf = %lf\n", num1, num2, result);
+  printf("%lf + %lf = %lf\n", num1, num2, num1 + num2);
   return ;
 }
+
+void sub(num1, num2)
+{
+  printf("%lf - %lf = %lf\n", num1, num2, num1 - num2);
+  return ;
+}
+
+
